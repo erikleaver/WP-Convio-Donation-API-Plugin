@@ -29,7 +29,7 @@
 		}
 	}
 	?>
-	<input type="hidden" name="error_redirect" value="<?=$formObj['error_key'];?>" />
+	<input type="hidden" name="error_redirect" value="<?=$formObj['error_page'];?>" />
 	
 	<!-- Hidden inputs - API common fields -->
 	<input type="hidden" name="api_key" value="<?=$formObj['api_key'];?>" />
