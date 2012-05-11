@@ -29,7 +29,7 @@
 		}
 	}
 	?>
-	<input type="hidden" name="error_redirect" value="https://secure.crs.org/site/SPageServer?pagename=gift_catalog_form&error=1<?=$error_string;?>" />
+	<input type="hidden" name="error_redirect" value="<?=$formObj['error_key'];?>" />
 	
 	<!-- Hidden inputs - API common fields -->
 	<input type="hidden" name="api_key" value="<?=$formObj['api_key'];?>" />

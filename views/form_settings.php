@@ -67,6 +67,10 @@
 	<label for="ddcd_typage">Enter Page ID of confirmation page</label>
 	<input type="text" id="ddcd_typage" name="ddcd[typage]" value="<?=$formObj['typage'];?>" />
 </div>
+<div class="formRow">
+	<label for="ddcd_error_page">Enter <strong>Full URL</strong> for error page</label>
+	<input type="text" id="ddcd_error_page" name="ddcd[error_page]" value="<?=$formObj['error_page'];?>" />
+</div>
 <div class="formRow checkbox">
 	<input type="checkbox" class="checkbox" id="ddcd_preview" name="ddcd[preview]" value="1" <?if($formObj['preview']){?>checked="checked"<?}?> />
 	<label for="ddcd_preview">Send donations in preview mode</label>
