@@ -1,7 +1,3 @@
-<div class="formRow checkbox">
-	<input type="checkbox" class="checkbox" id="ddcd_ajax" name="ddcd[ajax]" value="1" <?if($formObj['ajax']){?>checked="checked"<?}?> />
-	<label for="ddcd_ajax">Use AJAX on Form</label>
-</div>
 <div class="formRow">
 	<label for="ddcd_position">Position of Donation Form</label>
 	<select name="ddcd[position]">

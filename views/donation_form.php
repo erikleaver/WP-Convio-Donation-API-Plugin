@@ -1,4 +1,4 @@
-<form id="ddcd" class="donation <?if($formObj['ajax']){echo 'ajax';}?> <?if($formObj['expanding']){echo 'expanding';}?>" action="<?bloginfo('wpurl');?>/wp-content/plugins/ddcd/ddcd_donation_process.php" method="POST">
+<form id="ddcd" class="donation <?if($formObj['expanding']){echo 'expanding';}?>" action="<?bloginfo('wpurl');?>/wp-content/plugins/ddcd/ddcd_donation_process.php" method="POST">
 	<input type="hidden" name="post_id" value="<?=$formObj['post_id'];?>">
 	<!-- Hidden inputs - API common fields -->
 	<input id="v" name="v" type="hidden" value="1.0" />
