@@ -46,13 +46,11 @@ function ddcd_admin_filter_settings($data){
 	// changes post data into safe form object
 	$formObj = array(
 		'include' => false,
-		'ajax' => false,
 		);
 	
 	foreach($data as $key => $value){
 		switch($key){
 			case 'include':
-			case 'ajax':
 			case 'preview':
 				$formObj[$key] = true;
 				break;
