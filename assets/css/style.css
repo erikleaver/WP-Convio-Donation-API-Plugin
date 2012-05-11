@@ -1,0 +1,74 @@
+form.donation{
+	display:block;
+}
+
+input.radio{
+	margin:0px;
+	padding:0px;
+}
+
+form.donation .error{
+	font-weight:bold;
+}
+form.donation .error.hidden{
+	display:none;
+}
+form.donation input.error,form.donation select.error{
+	color:#000;
+	font-size:1em;
+	font-weight:normal;
+	padding:0px;
+	background-color:#FFF;
+}
+
+form.donation .giftstring label{
+margin:0px;
+padding:0px;
+display:block;
+color:#000;
+font-weight:bold;
+font-size:1em;
+}
+form.donation .giftstring .otheramt{
+	clear:both;
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+form.donation .giftstring .otheramt label{
+	display:inline;
+	margin-right:5px;
+}
+
+form.donation fieldset .formRow{
+	margin:0px 0px 10px;
+}
+
+form.donation fieldset .formRow label{
+	display:block;
+	position:relative;
+}
+
+form.donation label.hidden,form.donation fieldset .formRow label.hidden{
+	position:absolute;
+	top:0px;
+	left:-6000px;
+}
+
+form.donation fieldset .formRow input{
+	margin:0px;
+}
+form.donation .req{
+	display:block;
+	width:8px;
+	height:8px;
+	float:left;
+	text-indent:1000em;
+	overflow:hidden;
+	background-image:url('../i/red-star.png');
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+form.donation .formRow label .req{
+
+}
